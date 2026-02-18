@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Commerce Product Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f2f2f2;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .card{
+            background:white;
+            width:300px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.2);
+            text-align:center;
+            padding:20px;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        .product-name{
+            font-size:20px;
+            font-weight:bold;
+            margin:15px 0 10px 0;
+        }
+
+        .price{
+            color:green;
+            font-size:18px;
+            margin-bottom:10px;
+        }
+
+        .description{
+            font-size:14px;
+            color:#555;
+            margin-bottom:15px;
+        }
+
+        .btn{
+            background-color:#007bff;
+            color:white;
+            padding:10px 15px;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background-color:#0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <img src="laptop.jpg" alt="Product Image">
+
+        <div class="product-name">Laptop</div>
+
+        <div class="price">₹ 80,000</div>
+
+        <div class="description">
+            This laptop is a specific model
+        </div>
+
+        <button class="btn">Add to Cart</button>
+    </div>
+
+</body>
+</html>
